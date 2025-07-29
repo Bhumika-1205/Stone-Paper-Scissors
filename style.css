@@ -3,11 +3,11 @@
   padding: 0px;
   font-size: 1.2rem;
   font-family: cursive;
+  color: #344e41;
 }
 
 body{
   background-color: #a3b18a;
-  color: #344e41;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -19,8 +19,18 @@ body{
   margin-bottom: 3.5rem;
 }
 
-img{
+
+img,.choice{
   width: 20vw;
+  height: 20vw;
+  border-radius: 10vw;
+  border: none;
+  object-fit: cover;
+}
+
+.choice:hover{
+  opacity: 0.5;
+  cursor:pointer;
 }
 
 .score-board{
@@ -35,8 +45,8 @@ img{
   align-items: center;
 }
 
-.hidden{
-  margin-top: 3rem;
+.win{
+  margin-top: 1.2rem;
+  font-size: 1.5rem;
   visibility: hidden;
 }
-
